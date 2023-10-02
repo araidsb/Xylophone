@@ -13,6 +13,7 @@
 		9760915F2ACA81D90039DDFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9760915D2ACA81D90039DDFF /* Main.storyboard */; };
 		976091612ACA81DA0039DDFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 976091602ACA81DA0039DDFF /* Assets.xcassets */; };
 		976091642ACA81DA0039DDFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976091622ACA81DA0039DDFF /* LaunchScreen.storyboard */; };
+		9760916F2ACA95C70039DDFF /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 9760916E2ACA95C70039DDFF /* sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		976091602ACA81DA0039DDFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		976091632ACA81DA0039DDFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		976091652ACA81DA0039DDFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9760916E2ACA95C70039DDFF /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sounds; path = ../../../sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +62,20 @@
 				976091592ACA81D90039DDFF /* SceneDelegate.swift */,
 				9760915B2ACA81D90039DDFF /* ViewController.swift */,
 				9760915D2ACA81D90039DDFF /* Main.storyboard */,
-				976091602ACA81DA0039DDFF /* Assets.xcassets */,
+				9760916B2ACA843F0039DDFF /* Resources */,
 				976091622ACA81DA0039DDFF /* LaunchScreen.storyboard */,
 				976091652ACA81DA0039DDFF /* Info.plist */,
 			);
 			path = Xylophone;
+			sourceTree = "<group>";
+		};
+		9760916B2ACA843F0039DDFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9760916E2ACA95C70039DDFF /* sounds */,
+				976091602ACA81DA0039DDFF /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				976091642ACA81DA0039DDFF /* LaunchScreen.storyboard in Resources */,
 				976091612ACA81DA0039DDFF /* Assets.xcassets in Resources */,
+				9760916F2ACA95C70039DDFF /* sounds in Resources */,
 				9760915F2ACA81D90039DDFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
